@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
@@ -8,94 +13,43 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      crossorigin="anonymous"
-    />
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-      crossorigin="anonymous"
-    ></script>
+    <link rel="stylesheet" href="style.css" />
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tinyiko Nothando Malwane | Front-End Developer Portfolio</title>
 
-    <meta name="description" content="Tinyiko Malwane is a self-taught front-end
-    developer from South Africa
-
-    <link rel="stylesheet" href="style.css" />
+    <title>Tinyiko Malwane | Front-End Developer</title>
   </head>
 
   <body>
-    <div class="container py-4">
-      <a href="index.html" class="btn btn-outline-primary rounded-pill mb-4">
-        ← Back to homepage
+    <section class="hero">
+      <div class="container">
+        <p class="intro-text">👋 Hello, I’m</p>
+
+        <h1>Tinyiko Malwane</h1>
+
+        <h2>Front-End Developer based in South Africa</h2>
+
+        <p class="hero-description">
+          I build responsive and modern websites using HTML, CSS, JavaScript,
+          and Bootstrap while continuously improving my development skills
+          through real projects.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="about.html" class="about-link">About Me</a>
+          <a href="#contact" class="contact-link">Contact Me</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>📮 Contact Me</h2>
+
+      <a href="mailto:Nothandotinyiko@gmail.com" class="email-link">
+        Nothandotinyiko@gmail.com
       </a>
-
-      <h1 class="mb-2">About me</h1>
-
-      <h3 class="text-muted mb-4">Front-end developer from South Africa</h3>
-
-      <!-- IMAGES (3 IMAGES) -->
-      <div class="row g-4 mb-5">
-        <div class="col-12 col-md-4">
-          <img
-            src="iamges/Screenshot1.png"
-            class="img-fluid rounded border border-2 border-primary shadow-sm"
-            alt="About image 1"
-          />
-        </div>
-
-        <div class="col-12 col-md-4">
-          <img
-            src="iamges/Screenshot3.png"
-            class="img-fluid rounded border border-2 border-primary shadow-sm"
-            alt="About image 2"
-          />
-        </div>
-
-        <div class="col-12 col-md-4">
-          <img
-            src="iamges/Screenshot4.png"
-            class="img-fluid rounded border border-2 border-primary shadow-sm"
-            alt="About image 3"
-          />
-        </div>
-      </div>
-
-      <!-- TEXT -->
-      <div class="row g-4">
-        <div class="col-12 col-md-6">
-          <p class="lead lh-lg">
-            My name is Tinyiko Malwane. I am a self-taught developer from South
-            Africa. I enjoy building websites and learning new technologies.
-          </p>
-        </div>
-
-        <div class="col-12 col-md-6">
-          <p class="lead lh-lg">
-            I have experience in web development and I am continuously improving
-            my coding skills while building real projects.
-          </p>
-        </div>
-      </div>
-
-      <div class="text-center mt-5">
-        <a href="#contact" class="btn btn-primary rounded-pill px-4">
-          Contact me
-        </a>
-      </div>
-
-      <div id="contact" class="text-center mt-5">
-        <h2>📮 Contact me</h2>
-
-        <a href="mailto:Nothandotinyiko@gmail.com" class="email-link">
-          Nothandotinyiko@gmail.com
-        </a>
-      </div>
-    </div>
+    </section>
   </body>
 </html>
