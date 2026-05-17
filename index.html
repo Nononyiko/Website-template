@@ -1,167 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Tinyiko Malwane | Front-End Developer</title>
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-      crossorigin="anonymous"
     />
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-      crossorigin="anonymous"
-    ></script>
-
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tinyiko Malwane</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
 
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand fw-bold" href="#"> Tinyiko </a>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-content text-center">
+        <p class="intro-text">👋 Hello, I’m</p>
 
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+        <h1>Tinyiko Malwane</h1>
 
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto gap-3">
-            <li class="nav-item">
-              <a class="nav-link active" href="#">Home</a>
-            </li>
+        <h2>Front-End Developer based in South Africa</h2>
 
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
+        <p class="hero-description">
+          I build modern, responsive websites using HTML, CSS, JavaScript, and
+          Bootstrap.
+        </p>
 
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
+        <div class="hero-buttons">
+          <a href="about.html" class="about-link">View Projects</a>
+          <a href="#contact" class="contact-link">Contact Me</a>
         </div>
       </div>
-    </nav>
-    <div class="container py-4">
-      <!-- HEADER -->
-      <h1 class="mb-3">Welcome, I am Tinyiko Malwane</h1>
+    </section>
 
-      <p
-        class="lead lh-lg mb-4 text-center text-md-start mx-auto"
-        style="max-width: 700px"
-      >
-        I am a self-taught front-end developer from South Africa passionate
-        about building websites and learning new technologies.
-      </p>
+    <!-- CONTACT -->
+    <section id="contact" class="text-center py-5">
+      <div class="container">
+        <h2>📮 Contact Me</h2>
 
-      <!-- NAVIGATION -->
-      <div class="d-flex justify-content-center gap-4 mt-4 mb-5">
-        <a href="about.html" class="btn btn-outline-primary rounded-pill px-4">
-          About me
-        </a>
-
-        <a href="#contact" class="btn btn-primary rounded-pill px-4">
-          Contact me
-        </a>
-      </div>
-
-      <!-- CONTACT -->
-      <div id="contact" class="text-center mb-5">
-        <h2>📮 Contact me</h2>
         <a href="mailto:Nothandotinyiko@gmail.com" class="email-link">
           Nothandotinyiko@gmail.com
         </a>
       </div>
-
-      <!-- WORLD CLOCK APP -->
-      <div class="mb-5">
-        <h2 class="mb-4 fw-semibold">World Clock App</h2>
-
-        <div class="row align-items-center g-4">
-          <div class="col-12 col-md-6">
-            <img
-              src="iamges/Screenshot1.png"
-              class="img-fluid rounded border border-2 border-primary shadow-sm"
-              alt="World clock app"
-            />
-          </div>
-
-          <div class="col-12 col-md-6">
-            <p class="lead lh-lg">
-              A world clock shows the current time in different cities around
-              the world. It helps users stay connected across time zones and
-              manage international communication easily.
-            </p>
-
-            <a href="#" class="btn btn-outline-primary rounded-pill mt-3">
-              Launch App
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <!-- WEATHER APP -->
-      <div class="mb-5">
-        <h2 class="mb-4 fw-semibold">Weather App</h2>
-
-        <div class="row align-items-center g-4">
-          <div class="col-12 col-md-6">
-            <p class="lead lh-lg">
-              The weather app provides real-time updates on temperature,
-              rainfall, and weather conditions so users can plan their day
-              effectively.
-            </p>
-
-            <a href="#" class="btn btn-outline-primary rounded-pill mt-3">
-              Launch App
-            </a>
-          </div>
-
-          <div class="col-12 col-md-6">
-            <img
-              src="iamges/Screenshot3.png"
-              class="img-fluid rounded border border-2 border-primary shadow-sm"
-              alt="Weather app"
-            />
-          </div>
-        </div>
-      </div>
-
-      <!-- WELLNESS APP -->
-      <div class="mb-5">
-        <h2 class="mb-4 fw-semibold">Wellness App</h2>
-
-        <div class="row align-items-center g-4">
-          <div class="col-12 col-md-6">
-            <img
-              src="iamges/Screenshot4.png"
-              class="img-fluid rounded border border-2 border-primary shadow-sm"
-              alt="Wellness app"
-            />
-          </div>
-
-          <div class="col-12 col-md-6">
-            <p class="lead lh-lg">
-              The wellness app helps users track mental and physical well-being
-              through mood tracking, hydration reminders, and wellness tips.
-            </p>
-
-            <a href="#" class="btn btn-outline-primary rounded-pill mt-3">
-              Launch App
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
+    </section>
   </body>
 </html>
