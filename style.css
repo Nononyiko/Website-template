@@ -11,6 +11,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   background-color: var(--background-color);
@@ -18,9 +22,8 @@ body {
   line-height: 1.7;
 }
 
-/* HERO */
 .hero {
-  min-height: 100vh;
+  min-height: 90vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -33,7 +36,6 @@ body {
   width: 100%;
 }
 
-/* INTRO TEXT (👋 KEPT) */
 .intro-text {
   font-size: 20px;
   color: var(--secondary-color);
@@ -41,13 +43,11 @@ body {
   margin-bottom: 10px;
 }
 
-/* NAME */
 .hero h1 {
   font-size: 70px;
   font-weight: 700;
 }
 
-/* SUBTITLE */
 .hero h2 {
   font-size: 26px;
   font-weight: 400;
@@ -55,19 +55,21 @@ body {
   margin: 15px 0;
 }
 
-/* DESCRIPTION */
 .hero-description {
   font-size: 18px;
   color: var(--text-color);
   margin-bottom: 40px;
 }
 
-/* BUTTONS */
 .hero-buttons {
   display: flex;
   justify-content: center;
   gap: 20px;
   flex-wrap: wrap;
+}
+
+.hero-buttons a {
+  display: inline-block;
 }
 
 .about-link,
@@ -79,7 +81,6 @@ body {
   transition: 0.3s ease;
 }
 
-/* ABOUT */
 .about-link {
   border: 2px solid var(--secondary-color);
   color: var(--secondary-color);
@@ -90,7 +91,6 @@ body {
   color: white;
 }
 
-/* CONTACT */
 .contact-link {
   background: var(--secondary-color);
   color: white;
@@ -100,12 +100,12 @@ body {
   opacity: 0.9;
 }
 
-/* PROJECT IMAGES */
-img {
+#projects img {
   transition: 0.3s ease;
+  width: 100%;
 }
 
-img:hover {
+#projects img:hover {
   transform: scale(1.03);
 }
 
@@ -121,7 +121,10 @@ img:hover {
   text-decoration: none;
 }
 
-/* RESPONSIVE */
+.email-link:hover {
+  text-decoration: underline;
+}
+
 @media (max-width: 768px) {
   .hero h1 {
     font-size: 42px;
